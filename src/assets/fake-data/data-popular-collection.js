@@ -12,10 +12,10 @@ import img2right2 from '../images/box-item/img-collection10.jpg'; //done
 import img2right3 from '../images/box-item/img-collection11.jpg'; // done
 
 import imgAuthor3 from '../images/avatar/4PS_logo.png';
-import img3left from '../images/box-item/img-collection-12.jpg';
-import img3right1 from '../images/box-item/img-collection18.jpg';
-import img3right2 from '../images/box-item/img-collection25.jpg';
-import img3right3 from '../images/box-item/img-collection17.jpg';
+import img3left from '../images/box-item/img-collection-12.jpg'; //done
+import img3right1 from '../images/box-item/img-collection18.jpg'; //done
+import img3right2 from '../images/box-item/img-collection25.jpg'; //done
+import img3right3 from '../images/box-item/img-collection17.jpg'; //done
 
 import imgAuthor4 from '../images/avatar/GbgDash_logo.png';
 import img1right4 from '../images/box-item/img-collection8.jpg';

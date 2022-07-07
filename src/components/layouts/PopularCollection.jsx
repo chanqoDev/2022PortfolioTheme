@@ -12,7 +12,9 @@ const PopularCollection = (props) => {
         <div className="row">
           <div className="col-md-12">
             <div className="heading-live-auctions">
-              <h2 className="tf-title pb-22 text-left">Most Recent Work</h2>
+              <h2 className="tf-title pb-22 text-left">
+                RECENT WORK COLLECTION
+              </h2>
               <Link to="/explore-03" className="exp style2">
                 EXPLORE MORE
               </Link>
@@ -76,16 +78,16 @@ const PopularCollectionItem = (props) => (
                     <Link to="/authors-01">{props.item.title}</Link>
                   </h4>
                   <div className="infor">
-                    <span>Created by</span>
+                    <span>Visit Live:</span>
                     <span className="name">
                       <Link to="/authors-02">{props.item.name}</Link>
                     </span>
                   </div>
                 </div>
               </div>
-              <Link to="/login" className="wishlist-button public heart">
+              {/* <Link to="/login" className="wishlist-button public heart">
                 <span className="number-like"> 100</span>
-              </Link>
+              </Link> */}
             </div>
             <Link to="/authors-02">
               <div className="media-images-collection">
