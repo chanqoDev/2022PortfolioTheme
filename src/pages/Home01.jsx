@@ -18,10 +18,11 @@ const Home01 = () => {
     <div className="home-1">
       <Header />
       <Slider data={heroSliderData} />
+
       <PopularCollection data={popularCollectionData} />
       <TopSeller data={topSellerData} />
       <TodayPicks data={todayPickData} />
-      <LiveAuction data={liveAuctionData} />
+      {/* <LiveAuction data={liveAuctionData} /> */}
       <Create />
       <Footer />
     </div>
