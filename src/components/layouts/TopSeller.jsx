@@ -21,7 +21,7 @@ const TopSeller = (props) => {
           <div className="col-md-12">
             <Swiper
               modules={[Navigation, Scrollbar, A11y]}
-              spaceBetween={30}
+              spaceBetween={20}
               navigation
               breakpoints={{
                 0: {
@@ -63,7 +63,7 @@ const TopSellerItem = (props) => (
           <div className="sc-author-box style-2">
             <div className="author-avatar">
               <img src={props.item.img} alt="" className="avatar" />
-              <div className="badge"></div>
+              {/* <div className="badge"></div> */}
             </div>
             <div className="author-infor">
               <h5>
