@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import imgsun from '../../assets/images/icon/sun.png';
+import imgsun from '../../assets/images/icon/sun.png';
 import imgMoon from '../../assets/images/icon/moon.png';
 const DarkMode = () => {
   let clickedClass = 'clicked';
@@ -36,8 +36,9 @@ const DarkMode = () => {
   return (
     <div className="mode_switcher">
       <h6>
-        Dark mode <strong>Available</strong>
+        Click Dark <strong>Mode</strong>
       </h6>
+
       <Link to="#" onClick={(e) => switchTheme(e)}>
         <img src={imgMoon} alt="" />
       </Link>

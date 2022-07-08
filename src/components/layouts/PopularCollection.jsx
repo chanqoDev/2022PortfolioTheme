@@ -15,7 +15,7 @@ const PopularCollection = (props) => {
               <h2 className="tf-title pb-22 text-left">
                 RECENT WORK COLLECTION
               </h2>
-              <Link to="/explore-03" className="exp style2">
+              <Link to="/authors-01" className="exp style2">
                 EXPLORE MORE
               </Link>
             </div>
