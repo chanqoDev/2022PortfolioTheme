@@ -20,7 +20,7 @@ const Activity01 = () => {
     },
     {
       img: img1,
-      title: 'Wow! That Brain Is Floating',
+      title: 'Manhattan Local Meet & Greet Techies pt2.',
       status: '10 editions listed by',
       author: 'Meowbids',
       time: 'At 2:30 PM on 19th June, 2021',
