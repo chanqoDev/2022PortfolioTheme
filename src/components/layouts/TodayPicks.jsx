@@ -19,7 +19,7 @@ const TodayPicks = (props) => {
             <div className="col-md-12">
               <div className="heading-live-auctions mg-bt-21">
                 <h2 className="tf-title pad-l-7">Projects</h2>
-                <Link to="/explore-03" className="exp style2">
+                <Link to="/explore-02" className="exp style2">
                   EXPLORE MORE
                 </Link>
               </div>
@@ -32,7 +32,7 @@ const TodayPicks = (props) => {
                   } `}
                 >
                   <div className="card-media">
-                    <Link to="/item-details-01">
+                    <Link to="/explore-02">
                       <img src={item.img} alt="axies" />
                     </Link>
                   </div>

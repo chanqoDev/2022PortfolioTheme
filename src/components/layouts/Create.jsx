@@ -41,7 +41,7 @@ const Create = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="heading-live-auctions mg-bt-22">
-              <h2 className="tf-title pb-17">Create And Sell Your NFTs</h2>
+              <h2 className="tf-title pb-17">Agile Approach Development</h2>
             </div>
           </div>
           {data.map((item, index) => (

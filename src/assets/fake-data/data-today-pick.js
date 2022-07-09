@@ -14,7 +14,7 @@ import img7 from '../images/box-item/image-box-6.jpg';
 // import imga7 from '../images/avatar/avt-4.jpg';
 import img8 from '../images/box-item/image-box-11.jpg';
 // import imga8 from '../images/avatar/avt-3.jpg';
-// import imgCollection1 from '../images/avatar/avt-18.jpg';
+import imgCollection1 from '../images/avatar/avt-18.jpg';
 
 import img9 from '../images/box-item/image-box-project9.jpg';
 import img10 from '../images/box-item/image-box-project-10.jpg';
@@ -28,15 +28,15 @@ import img16 from '../images/box-item/image-box-project-16.jpg';
 const todayPickData = [
   {
     img: img1,
-    title: 'Todo Rocket Planner🚀 ',
+    title: 'Todo Rocket Planner 🚀 ',
     // tags: 'bsc',
     // imgAuthor: imga1,
     // nameAuthor: 'SalvadorDali',
     // price: '4.89 ETH',
     // priceChange: '$12.246',
     // wishlist: '100',
-    // imgCollection: imgCollection1,
-    // nameCollection: 'Creative Art 3D',
+    imgCollection: imgCollection1,
+    nameCollection: 'HTML5',
   },
   {
     img: img2,
@@ -48,20 +48,20 @@ const todayPickData = [
     // priceChange: '$12.246',
     // wishlist: '100',
     // feature: 'coming soon',
-    // imgCollection: imgCollection1,
-    // nameCollection: 'Creative Art 3D',
+    imgCollection: imgCollection1,
+    nameCollection: 'React',
   },
   {
-    img: img3,
-    title: 'Display Random UserApi -Typescript',
-    tags: 'bsc',
+    img: img7,
+    title: 'MemoryBoard Flipcard Game ',
+    // tags: 'bsc',
     // imgAuthor: imga3,
     // nameAuthor: 'Freddie Carpenter',
     // price: '4.89 ETH',
     // priceChange: '$12.246',
     // wishlist: '100',
     // imgCollection: imgCollection1,
-    // nameCollection: 'Creative Art 3D',
+    nameCollection: 'React',
   },
   {
     img: img4,
@@ -73,7 +73,7 @@ const todayPickData = [
     // priceChange: '$12.246',
     // wishlist: '100',
     // imgCollection: imgCollection1,
-    // nameCollection: 'Creative Art 3D',
+    nameCollection: 'React',
   },
   {
     img: img11,
@@ -85,7 +85,7 @@ const todayPickData = [
     // priceChange: '$12.246',
     // wishlist: '100',
     // imgCollection: imgCollection1,
-    // nameCollection: 'Creative Art 3D',
+    nameCollection: 'React',
   },
   {
     img: img6,
@@ -100,8 +100,8 @@ const todayPickData = [
     // nameCollection: 'Creative Art 3D',
   },
   {
-    img: img7,
-    title: 'MemoryBoard Flipcard Game',
+    img: img3,
+    title: 'Display Random UserApi -Typescript',
     // tags: 'bsc',
     // imgAuthor: imga7,
     // nameAuthor: 'Freddie Carpenter',

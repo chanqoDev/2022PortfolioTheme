@@ -5,7 +5,7 @@ import Footer from '../components/footer/Footer';
 import TopSeller from '../components/layouts/authors/TopSeller';
 import topSellerData from '../assets/fake-data/data-top-seller';
 import popularCollectionData from '../assets/fake-data/data-popular-collection';
-
+import { useEffect } from 'react';
 const Authors01 = () => {
   const [data] = useState(popularCollectionData);
 
@@ -66,18 +66,36 @@ const Authors01 = () => {
                       </div>
                       <div className="content">
                         <h4>
-                          <Link to="/author-02">{item.name}</Link>
+                          <Link
+                            to="#"
+                            onClick={() => {
+                              window.location.replace(`${item.link}`);
+                            }}
+                          >
+                            {item.name}
+                          </Link>
                         </h4>
-                        <div className="infor">
+                        <div className="info">
                           <span>{item.count}</span>
                         </div>
                       </div>
                     </div>
-                    <Link to="/login" className="sc-button fl-button pri-3">
+
+                    {/* update to redirect to external link */}
+                    <Link
+                      to="#"
+                      target="_blank"
+                      className="sc-button fl-button pri-3"
+                      rel="noreferrer"
+                      onClick={() => {
+                        window.location.replace(`${item.link}`);
+                      }}
+                    >
                       <span>View</span>
                     </Link>
                   </div>
-                  <Link to="/author-02">
+
+                  <Link to="/item-details-01">
                     <div className="media-images-collection">
                       <div className="box-left">
                         <img src={item.imgleft} alt="Axies" />
