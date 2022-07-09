@@ -23,13 +23,13 @@ const BlogDetails = () => {
     {
       img: img1,
       title: 'Challenge: Two sum Algorithm',
-      text: 'Lorem ipsum dolor sit amer....',
-      time: 'August 10, 2021',
+      text: 'Solve an common challenge in JS.',
+      time: 'Feb 3, 2022',
     },
     {
       img: img1,
       title: 'Validate Sequence',
-      text: 'Lorem ipsum dolor sit amer....',
+      text: '',
       time: 'August 10, 2021',
     },
     {

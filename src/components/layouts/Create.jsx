@@ -1,20 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import icon1 from '../../assets/images/icon/Wallet.png';
 import icon2 from '../../assets/images/icon/Category.png';
-import icon3 from '../../assets/images/icon/Image2.png';
-import icon4 from '../../assets/images/icon/Bookmark.png';
+import icon3 from '../../assets/images/icon/image2.png';
+import icon4 from '../../assets/images/icon/connect-7.png';
 
 const Create = () => {
   const data = [
     {
-      title: 'A11y Friendlysite',
-      description: 'For the 1 Billion a11y user, accessible friendly.',
+      title: 'A11y Friendly Site',
+      description:
+        'For the 1 Billion a11y user, accessible and responsibly friendly. a11y stands for ACCESSIBILITY',
       icon: icon1,
-      colorbg: 'icon-color1',
+      colorbg: 'icon-color1x',
     },
     {
-      title: 'AdobeXD UXDesign',
+      title: 'AdobeXD Design',
       description:
         'Setting up your NFT collection and creating NFTs on NFTs is easy! This guide explains how to set up your first collection',
       icon: icon2,
@@ -61,9 +62,7 @@ const CreateItem = (props) => (
           <img src={props.item.icon} alt="" />
         </div>
       </div>
-      <h3 className="heading">
-        <Link to="/wallet-connect">{props.item.title}</Link>
-      </h3>
+      <h3 className="heading">{props.item.title}</h3>
       <p className="content">{props.item.description}</p>
     </div>
   </div>

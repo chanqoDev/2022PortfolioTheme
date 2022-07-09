@@ -110,11 +110,11 @@ const menus = [
     name: 'Community',
     links: '#',
     namesub: [
-      {
-        id: 1,
-        sub: 'Blog',
-        links: '/blog',
-      },
+      // {
+      //   id: 1,
+      //   sub: 'Blog',
+      //   links: '/blog',
+      // },
       {
         id: 2,
         sub: 'Youtube Channel',

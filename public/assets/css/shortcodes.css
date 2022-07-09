@@ -477,17 +477,18 @@
   width: 56px;
   height: 56px;
 }
-.icon-color1 {
-  background: #5142fc;
+ 
+.icon-color1x {
+  background: #f1c40f;
 }
 .icon-color2 {
-  background: #47a432;
+  background: #2F0120;
 }
 .icon-color3 {
-  background: #9835fb;
+  background: #fff;
 }
 .icon-color4 {
-  background: #df4949;
+  background: #3b31a3;
 }
 .sc-box-icon .heading {
   margin-bottom: 14px;
