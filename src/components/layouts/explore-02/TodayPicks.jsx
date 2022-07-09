@@ -2,10 +2,10 @@ import React, { useState, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import CardModal from '../CardModal';
+// import CardModal from '../CardModal';
 
 import img1 from '../../../assets/images/box-item/card-item-3.jpg';
-import imga1 from '../../../assets/images/avatar/avt-1.jpg';
+import imga1 from '../../../assets/images/avatar/avt-3.png';
 import imgCollection1 from '../../../assets/images/avatar/avt-18.jpg';
 import img2 from '../../../assets/images/box-item/card-item-4.jpg';
 import imga2 from '../../../assets/images/avatar/avt-2.jpg';
@@ -14,22 +14,23 @@ import img3 from '../../../assets/images/box-item/card-item-2.jpg';
 import imga3 from '../../../assets/images/avatar/avt-4.jpg';
 import imgCollection3 from '../../../assets/images/avatar/avt-18.jpg';
 import img4 from '../../../assets/images/box-item/card-item-7.jpg';
-import imga4 from '../../../assets/images/avatar/avt-3.jpg';
+// import imga4 from '../../../assets/images/avatar/avt-3.jpg';
 import imgCollection4 from '../../../assets/images/avatar/avt-18.jpg';
 import img5 from '../../../assets/images/box-item/card-item8.jpg';
-import imga5 from '../../../assets/images/avatar/avt-12.jpg';
+// import imga5 from '../../../assets/images/avatar/avt-12.jpg';
 import imgCollection5 from '../../../assets/images/avatar/avt-18.jpg';
 import img6 from '../../../assets/images/box-item/card-item-9.jpg';
-import imga6 from '../../../assets/images/avatar/avt-1.jpg';
+// import imga6 from '../../../assets/images/avatar/avt-1.jpg';
 import imgCollection6 from '../../../assets/images/avatar/avt-18.jpg';
 import img7 from '../../../assets/images/box-item/image-box-6.jpg';
-import imga7 from '../../../assets/images/avatar/avt-4.jpg';
+// import imga7 from '../../../assets/images/avatar/avt-4.jpg';
 import imgCollection7 from '../../../assets/images/avatar/avt-18.jpg';
 import img8 from '../../../assets/images/box-item/image-box-11.jpg';
-import imga8 from '../../../assets/images/avatar/avt-3.jpg';
+// import imga8 from '../../../assets/images/avatar/avt-3.jpg';
 import imgCollection8 from '../../../assets/images/avatar/avt-18.jpg';
 import img9 from '../../../assets/images/box-item/image-box-project9.jpg';
 import img10 from '../../../assets/images/box-item/image-box-project-10.jpg';
+import imgCollection9 from '../../../assets/images/avatar/avt-1808.jpg';
 
 import img11 from '../../../assets/images/box-item/image-box-project-11.jpg';
 import img12 from '../../../assets/images/box-item/image-box-project-12.jpg';
@@ -68,348 +69,226 @@ const TodayPicks = () => {
         {
           id: 1,
           img: img1,
-          title: 'Todo Rocket Planner🚀 ',
-          // tags: 'bsc',
+          title: 'To-done Rocket Planner🚀 ',
           imgAuthor: imga1,
           // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection1,
           nameCollection: 'HTML5',
+          link: 'https://chrome.google.com/webstore/detail/to-done-rocket-planner/nnmfajngjkedfjodhldodbbnmbdjkchk?hl=en-US',
         },
         {
           id: 2,
           img: img2,
           title: 'FullstackDeveloper.shop ',
-          // tags: 'bsc',
-          imgAuthor: imga2,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection2,
-          nameCollection: 'REact',
+          imgAuthor: imgCollection9,
+          // nameAuthor: 'SalvadorDali',
+          nameCollection: 'React',
           feature: 'Coming Soon',
         },
         {
           id: 3,
           img: img7,
           title: 'MemoryBoard Flipcard Game ',
-          tags: 'bsc',
-          imgAuthor: imga3,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
           imgCollection: imgCollection3,
           nameCollection: 'Creative Art 3D',
+          link: 'https://chanqodev.github.io/MemoryFlipCardGame/',
         },
         {
           id: 4,
           img: img4,
           title: 'Handy-dandy Dev Blog ',
-          tags: 'bsc',
-          imgAuthor: imga4,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
           imgCollection: imgCollection4,
           nameCollection: 'Creative Art 3D',
+          link: 'https://github.com/chanqoDev/handydandydevblog',
         },
         {
           id: 5,
           img: img11,
           title: 'React NFT OpeanSea.io Gallery ',
-          tags: 'bsc',
-          imgAuthor: imga5,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
+          // tags: 'bsc',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
           imgCollection: imgCollection5,
           nameCollection: 'Creative Art 3D',
+          link: 'https://github.com/chanqoDev/react-nft-Opensea-Gallery',
         },
         {
           id: 6,
           img: img6,
           title: 'ChrisDev Portfolio 2021 ',
-          tags: 'bsc',
-          imgAuthor: imga6,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
+          // tags: 'bsc',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
           imgCollection: imgCollection6,
           nameCollection: 'Creative Art 3D',
+          link: 'https://chanqodev.github.io/ChrisDevWok_v2021/',
         },
         {
           id: 7,
           img: img3,
           title: 'Display Random UserApi -Typescript ',
-          tags: 'bsc',
-          imgAuthor: imga7,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
+          // tags: 'bsc',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
           imgCollection: imgCollection7,
           nameCollection: 'Creative Art 3D',
+          link: 'https://neon-marshmallow-cf3bb2.netlify.app/',
         },
         {
           id: 8,
           img: img13,
           title: 'Rabbits Lawncare LandingPage ',
-          tags: 'bsc',
-          imgAuthor: imga8,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection8,
+          // tags: 'bsc',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
+          // imgCollection: imgCollection8,
           nameCollection: 'Creative Art 3D',
+          link: 'https://github.com/chanqoDev/React_KS_lawnding_page',
         },
         {
           id: 9,
           img: img9,
           title: 'Firebase & Google Auth Disney ',
-          tags: 'bsc',
+          // tags: 'bsc',
           imgAuthor: imga1,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
+          // imgCollection: imgCollection1,
           nameCollection: 'Creative Art 3D',
+          link: 'https://disneyplus-clone-3aef7.web.app',
         },
         {
           id: 10,
           img: img10,
           title: 'Simon Says Color Game  -JQuery,DOM ',
-          tags: 'bsc',
-          imgAuthor: imga2,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
+          // tags: 'bsc',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
           imgCollection: imgCollection2,
           nameCollection: 'Creative Art 3D',
+          link: 'https://chanqodev.github.io/simon_game/',
         },
         {
           id: 11,
           img: img5,
           title: 'React, Typescript Formik Form ',
-          tags: 'bsc',
-          imgAuthor: imga3,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection3,
+          // tags: 'bsc',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
+          // imgCollection: imgCollection3,
           nameCollection: 'Creative Art 3D',
+          link: 'https://github.com/chanqoDev/Typescript-react-formik-form/tree/main/client',
         },
         {
           id: 12,
           img: img12,
           title: 'Vanilla JS & DOM Starbucks clone',
-          tags: 'bsc',
-          imgAuthor: imga4,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
+          // tags: 'bsc',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
           imgCollection: imgCollection4,
           nameCollection: 'Creative Art 3D',
+          link: 'https://chanqodev.github.io/starbucks-fullstack/',
         },
         {
           id: 13,
           img: img8,
           title: 'Youtube & IMDb Netflix APIn ',
-          tags: 'bsc',
-          imgAuthor: imga5,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
+          // tags: 'bsc',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
           imgCollection: imgCollection5,
           nameCollection: 'Creative Art 3D',
+          link: 'https://netflix-clone-b3c03.web.app/',
         },
         {
           id: 14,
           img: img14,
           title: 'Reverse GeoLocation OpenWeather api ',
-          tags: 'bsc',
-          imgAuthor: imga6,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
+          // tags: 'bsc',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
           imgCollection: imgCollection6,
           nameCollection: 'Creative Art 3D',
+          link: 'https://silly-pixie-dc71f4.netlify.app/',
         },
         {
           id: 15,
           img: img16,
           title: 'Node.js Chrisdev Blog ',
-          tags: 'bsc',
-          imgAuthor: imga7,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
+          // tags: 'bsc',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
           imgCollection: imgCollection7,
           nameCollection: 'Creative Art 3D',
+          link: 'https://github.com/chanqoDev/chrisDevBlogsAPI',
         },
         {
           id: 16,
           img: img15,
           title: 'Bootstrap Heroku Newsletter Signup Form ',
-          tags: 'bsc',
-          imgAuthor: imga8,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
+          // tags: 'bsc',
+          imgAuthor: imga1,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
           imgCollection: imgCollection8,
           nameCollection: 'Creative Art 3D',
+          link: 'https://github.com/chanqoDev/newsletterSignup',
         },
       ],
     },
     {
       id: 2,
-      dataContent: [
-        {
-          id: 2,
-          img: img2,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga2,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection2,
-          nameCollection: 'Creative Art 3D',
-        },
-        {
-          id: 3,
-          img: img3,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga3,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection3,
-          nameCollection: 'Creative Art 3D',
-        },
-        // {
-        //   id: 4,
-        //   img: img4,
-        //   title: 'The RenaiXance Rising the sun ',
-        //   tags: 'bsc',
-        //   imgAuthor: imga4,
-        //   nameAuthor: 'SalvadorDali',
-        //   price: '4.89 ETH',
-        //   priceChange: '$12.246',
-        //   wishlist: '100',
-        //   imgCollection: imgCollection4,
-        //   nameCollection: 'Creative Art 3D',
-        // },
-        // {
-        //   id: 5,
-        //   img: img5,
-        //   title: 'The RenaiXance Rising the sun ',
-        //   tags: 'bsc',
-        //   imgAuthor: imga5,
-        //   nameAuthor: 'SalvadorDali',
-        //   price: '4.89 ETH',
-        //   priceChange: '$12.246',
-        //   wishlist: '100',
-        //   imgCollection: imgCollection5,
-        //   nameCollection: 'Creative Art 3D',
-        // },
-      ],
+      dataContent: [],
     },
     {
       id: 3,
       dataContent: [
         {
-          id: 1,
-          img: img1,
-          title: 'Todo Rocket Planner 🚀',
-          tags: 'bsc',
-          imgAuthor: imga1,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection1,
-          nameCollection: 'Creative Art 3D',
-        },
-        {
-          id: 3,
-          img: img2,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga3,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection3,
-          nameCollection: 'Creative Art 3D',
-        },
-        {
-          id: 4,
-          img: img7,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga4,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection4,
-          nameCollection: 'Creative Art 3D',
-        },
-        {
-          id: 5,
-          img: img5,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga5,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection5,
-          nameCollection: 'Creative Art 3D',
-        },
-      ],
-    },
-    {
-      id: 4,
-      dataContent: [
-        {
-          id: 1,
-          img: img1,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga1,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection1,
-          nameCollection: 'Creative Art 3D',
-        },
-        {
           id: 2,
           img: img2,
-          title: 'The RenaiXance Rising the sun ',
+          title: 'react ',
           tags: 'bsc',
           imgAuthor: imga2,
           nameAuthor: 'SalvadorDali',
@@ -417,7 +296,7 @@ const TodayPicks = () => {
           priceChange: '$12.246',
           wishlist: '100',
           imgCollection: imgCollection2,
-          nameCollection: 'Creative Art 3D',
+          nameCollection: 'REACT',
         },
         {
           id: 3,
@@ -430,89 +309,6 @@ const TodayPicks = () => {
           priceChange: '$12.246',
           wishlist: '100',
           imgCollection: imgCollection3,
-          nameCollection: 'Creative Art 3D',
-        },
-        {
-          id: 5,
-          img: img5,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga5,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection5,
-          nameCollection: 'Creative Art 3D',
-        },
-        {
-          id: 7,
-          img: img7,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga7,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection7,
-          nameCollection: 'Creative Art 3D',
-        },
-      ],
-    },
-    {
-      id: 5,
-      dataContent: [
-        {
-          id: 2,
-          img: img2,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga2,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection2,
-          nameCollection: 'Creative Art 3D',
-        },
-        {
-          id: 3,
-          img: img3,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga3,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection3,
-          nameCollection: 'Creative Art 3D',
-        },
-        {
-          id: 4,
-          img: img4,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga4,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection4,
-          nameCollection: 'Creative Art 3D',
-        },
-        {
-          id: 6,
-          img: img5,
-          title: 'The RenaiXance Rising the sun ',
-          tags: 'bsc',
-          imgAuthor: imga6,
-          nameAuthor: 'SalvadorDali',
-          price: '4.89 ETH',
-          priceChange: '$12.246',
-          wishlist: '100',
-          imgCollection: imgCollection6,
           nameCollection: 'Creative Art 3D',
         },
       ],
@@ -524,7 +320,7 @@ const TodayPicks = () => {
     setVisible((prevValue) => prevValue + 4);
   };
 
-  const [modalShow, setModalShow] = useState(false);
+  // const [modalShow, setModalShow] = useState(false);
 
   return (
     <Fragment>
@@ -554,17 +350,15 @@ const TodayPicks = () => {
                             </Link>
                             <div className="button-place-bid">
                               <button
-                                onClick={() => setModalShow(true)}
-                                className="sc-button style-place-bid style bag fl-button pri-3"
+                                // onClick={() => setModalShow(true)}
+                                onClick={() => {
+                                  window.location.assign(`${item.link}`);
+                                }}
+                                className="sc-button   fl-button pri-3"
                               >
                                 <span>View Live</span>
                               </button>
                             </div>
-                            {/* <Link to="/login" className="wishlist-button heart">
-                              <span className="number-like">
-                                {item.wishlist}
-                              </span>
-                            </Link> */}
                             <div className="coming-soon">{item.feature}</div>
                           </div>
                           <div className="card-title">
@@ -578,7 +372,6 @@ const TodayPicks = () => {
                                 <img src={item.imgAuthor} alt="Axies" />
                               </div>
                               <div className="info">
-                                <span>Creator</span>
                                 <h6>
                                   <Link to="/authors-02">
                                     {item.nameAuthor}
@@ -586,23 +379,8 @@ const TodayPicks = () => {
                                 </h6>
                               </div>
                             </div>
-                            <div className="tags">{item.tags}</div>
                           </div>
-                          <div className="card-bottom style-explode">
-                            <div className="price">
-                              <span>Current Bid</span>
-                              <div className="price-details">
-                                <h5>{item.price}</h5>
-                                <span>= {item.priceChange}</span>
-                              </div>
-                            </div>
-                            <Link
-                              to="/activity-01"
-                              className="view-history reload"
-                            >
-                              View History
-                            </Link>
-                          </div>
+                          <div className="card-bottom style-explode"></div>
                         </div>
                       ))}
                       {visible < data.dataContent.length && (
@@ -625,7 +403,7 @@ const TodayPicks = () => {
           </div>
         </div>
       </div>
-      <CardModal show={modalShow} onHide={() => setModalShow(false)} />
+      {/* <CardModal show={modalShow} onHide={() => setModalShow(false)} /> */}
     </Fragment>
   );
 };

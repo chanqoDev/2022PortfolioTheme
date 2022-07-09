@@ -123,7 +123,7 @@ const menus = [
       {
         id: 3,
         sub: 'Local Meetups',
-        links: '/help-center',
+        links: '/activity-01',
       },
     ],
   },

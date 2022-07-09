@@ -58,7 +58,7 @@ const Header = () => {
                       <img
                         className="logo-dark"
                         id="logo_header"
-                        // src={logodark}
+                        src={logodark}
                         srcSet={`${logodark2x}`}
                         alt="nft-gaming"
                       />
@@ -102,16 +102,7 @@ const Header = () => {
                                     : 'menu-item'
                                 }
                               >
-                                <Link
-                                  to={submenu.links}
-                                  onClick={() => {
-                                    window.location.replace(
-                                      `${data.namesub.linky}`,
-                                    );
-                                  }}
-                                >
-                                  {submenu.sub}
-                                </Link>
+                                <Link to={submenu.links}>{submenu.sub}</Link>
                               </li>
                             ))}
                           </ul>

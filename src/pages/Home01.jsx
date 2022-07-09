@@ -19,7 +19,6 @@ const Home01 = () => {
       <Header />
       <Slider data={heroSliderData} />
       <Create />
-
       <PopularCollection data={popularCollectionData} />
       <TopSeller data={topSellerData} />
       <TodayPicks data={todayPickData} />

@@ -29,12 +29,8 @@ const todayPickData = [
   {
     img: img1,
     title: 'Todo Rocket Planner 🚀 ',
-    // tags: 'bsc',
     // imgAuthor: imga1,
-    // nameAuthor: 'SalvadorDali',
-    // price: '4.89 ETH',
-    // priceChange: '$12.246',
-    // wishlist: '100',
+    nameAuthor: 'SalvadorDali',
     imgCollection: imgCollection1,
     nameCollection: 'HTML5',
   },

@@ -5,7 +5,7 @@ import Footer from '../components/footer/Footer';
 import TopSeller from '../components/layouts/authors/TopSeller';
 import topSellerData from '../assets/fake-data/data-top-seller';
 import popularCollectionData from '../assets/fake-data/data-popular-collection';
-import { useEffect } from 'react';
+
 const Authors01 = () => {
   const [data] = useState(popularCollectionData);
 
