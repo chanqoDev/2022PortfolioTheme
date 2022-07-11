@@ -10,7 +10,14 @@ import 'swiper/scss/pagination';
 
 const LiveAuction = (props) => {
   const data = props.data;
-
+  const settings = {
+    infinite: true,
+    speed: 3000,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+  };
   return (
     <section className="tf-section live-auctions">
       <div className="themesflat-container">
@@ -44,6 +51,7 @@ const LiveAuction = (props) => {
               navigation
               pagination={{ clickable: true }}
               scrollbar={{ draggable: true }}
+              {...settings}
             >
               {data.map((item, index) => (
                 <SwiperSlide key={index}>

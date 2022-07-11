@@ -17,7 +17,7 @@ import Ranking from './Ranking';
 import Login from './Login';
 import NoResult from './NoResult';
 import FAQ from './FAQ';
-import Contact01 from './Contact01';
+// import Contact01 from './Contact01';
 import Contact02 from './Contact02';
 
 const routes = [
@@ -41,7 +41,7 @@ const routes = [
   { path: '/login', component: <Login /> },
   { path: '/no-result', component: <NoResult /> },
   { path: '/faq', component: <FAQ /> },
-  { path: '/contact-01', component: <Contact01 /> },
+  // { path: '/contact-01', component: <Contact01 /> },
   { path: '/contact-02', component: <Contact02 /> },
 ];
 

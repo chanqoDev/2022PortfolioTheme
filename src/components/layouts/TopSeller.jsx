@@ -9,6 +9,14 @@ import 'swiper/scss/pagination';
 
 const TopSeller = (props) => {
   const data = props.data;
+  const settings = {
+    infinite: true,
+    speed: 2000,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+  };
   return (
     <section className="tf-section top-seller">
       <div className="themesflat-container">
@@ -41,6 +49,7 @@ const TopSeller = (props) => {
                 },
               }}
               scrollbar={{ draggable: true }}
+              {...settings}
             >
               {data.map((item, index) => (
                 <SwiperSlide key={index}>
