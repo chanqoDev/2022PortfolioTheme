@@ -69,7 +69,7 @@ const Authors01 = () => {
                           <Link
                             to="#"
                             onClick={() => {
-                              window.location.replace(`${item.link}`);
+                              window.location.assign(`${item.link}`);
                             }}
                           >
                             {item.name}
