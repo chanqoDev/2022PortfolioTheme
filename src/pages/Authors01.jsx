@@ -69,7 +69,8 @@ const Authors01 = () => {
                           <Link
                             to="#"
                             onClick={() => {
-                              window.location.assign(`${item.link}`);
+                              // window.location.assign(`${item.link}`);
+                              window.open(`${item.link}`, '_blank');
                             }}
                           >
                             {item.name}
@@ -84,11 +85,11 @@ const Authors01 = () => {
                     {/* update to redirect to external link */}
                     <Link
                       to="#"
-                      target="_blank"
                       className="sc-button fl-button pri-3"
                       rel="noreferrer"
                       onClick={() => {
-                        window.location.replace(`${item.link}`);
+                        // window.location.replace(`${item.link}`);
+                        window.open(`${item.link}`, '_blank');
                       }}
                     >
                       <span>View</span>

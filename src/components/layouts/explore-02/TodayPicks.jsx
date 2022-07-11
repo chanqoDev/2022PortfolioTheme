@@ -604,7 +604,8 @@ const TodayPicks = () => {
                               <button
                                 // onClick={() => setModalShow(true)}
                                 onClick={() => {
-                                  window.location.assign(`${item.link}`);
+                                  window.open(`${item.link}`, '_blank');
+                                  // window.location.assign(`${item.link}`);
                                 }}
                                 className="sc-button   fl-button pri-3"
                               >
