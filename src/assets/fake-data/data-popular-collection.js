@@ -115,7 +115,7 @@ const popularCollectionData = [
     // imgright4: img1right4,
     imgtop: imgtop1,
     wishlist: '100',
-    count: '12 item products',
+    count: 'TransIntl LLC',
     link: 'https://www.transintl.com/mac-memory/',
   },
   {

@@ -13,18 +13,21 @@ const Activity01 = () => {
     {
       img: img2,
       title: 'Manhattan Local Meet & Greet Techies',
-      status: 'Event : Experied ',
-      author: 'Gayle Hicks',
-      time: 'At 2:30 PM on 19th June, 2021',
-      icon: 'icon-4',
+      status: 'Event : JUNETEENTH ',
+      author: 'Expired',
+      time: 'At 2:30 PM on 16th June, 2022',
+      icon: 'icon-1',
+      link: 'https://www.meetup.com/manhattan-education-technology-meetup-group/members/186157527/profile/',
     },
     {
       img: img1,
       title: 'Manhattan Local Meet & Greet Techies pt2.',
-      status: '10 editions listed by',
-      author: 'Meowbids',
-      time: 'At 2:30 PM on 19th June, 2021',
+      status:
+        'Whether you are a local or just passing through make new friends & meet Manhattans Kansas Techies Grab a coffee☕',
+      author: 'Coming Up!',
+      time: 'At 1:00 PM on 1st Aug, 2022',
       icon: 'icon-1',
+      link: 'https://www.meetup.com/manhattan-education-technology-meetup-group/members/186157527/profile/',
     },
   ]);
   const [dataFilter] = useState([
@@ -88,7 +91,14 @@ const Activity01 = () => {
                     <div className="infor">
                       <h3>
                         {' '}
-                        <Link to="/item-details-01">{item.title}</Link>
+                        <Link
+                          to="/activity-01"
+                          onClick={() => {
+                            window.open(`${item.link}`, '_blank');
+                          }}
+                        >
+                          {item.title}
+                        </Link>
                       </h3>
                       <div className="status">
                         {item.status}{' '}
