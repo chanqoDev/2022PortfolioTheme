@@ -60,7 +60,7 @@ const Header = () => {
                         id="logo_header"
                         src={logodark}
                         srcSet={`${logodark2x}`}
-                        alt="nft-gaming"
+                        alt="myself in crypto"
                       />
                       <img
                         className="logo-light"
@@ -68,7 +68,7 @@ const Header = () => {
                         // src={logoheader}
                         // srcSet={`${logoheader2x}`}
                         srcSet={`${logo}`}
-                        alt="nft-gaming"
+                        alt="myself in Crypto"
                       />
                     </Link>
                   </div>

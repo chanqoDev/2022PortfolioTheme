@@ -4463,7 +4463,7 @@ section.today-picks {
 }
 
 .mode_switcher a {
-  background: linear-gradient(216.56deg, #e250e5 5.32%, #4b50e6 94.32%);
+  /* background: linear-gradient(216.56deg, #e250e5 5.32%, #4b50e6 94.32%); */
   border-radius: 10px;
   width: 40px;
   height: 40px;
@@ -4476,7 +4476,7 @@ section.today-picks {
 }
 
 .is_dark .mode_switcher a {
-  background: #343444;
+  /* background: #343444; */
 }
 
 .mode_switcher a i {

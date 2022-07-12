@@ -23,7 +23,6 @@ const DarkMode = () => {
       body.classList.replace(darkTheme, lightTheme);
       e.target.classList.remove(clickedClass);
       localStorage.setItem('theme', 'light');
-
       theme = lightTheme;
     } else {
       body.classList.replace(lightTheme, darkTheme);
@@ -35,12 +34,13 @@ const DarkMode = () => {
   };
   return (
     <div className="mode_switcher">
-      <h6>
-        Click Dark <strong>Mode</strong>
+      <h6 className="logo-light">
+        Click for <strong>DarkMode</strong>
       </h6>
 
       <Link to="#" onClick={(e) => switchTheme(e)}>
-        <img src={imgMoon} alt="" />
+        <img className="logo-ligth" src={imgMoon} alt="moon" />
+        {/* <img className="logo-light" src={imgsun} alt="sun" /> */}
       </Link>
     </div>
   );
