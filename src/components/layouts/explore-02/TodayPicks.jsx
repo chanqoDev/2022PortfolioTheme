@@ -607,7 +607,10 @@ const TodayPicks = () => {
                                   window.open(`${item.link}`, '_blank');
                                   // window.location.assign(`${item.link}`);
                                 }}
-                                className="sc-button   fl-button pri-3"
+                                className="sc-button fl-button pri-3"
+                                style={{
+                                  color: '#fff',
+                                }}
                               >
                                 <span>View Live</span>
                               </button>
@@ -626,7 +629,12 @@ const TodayPicks = () => {
                               </div>
                               <div className="info">
                                 <h6>
-                                  <Link to="/authors-02">
+                                  <Link
+                                    to="/explore-02"
+                                    onClick={() => {
+                                      window.open(`${item.link}`, '_blank');
+                                    }}
+                                  >
                                     {item.nameAuthor}
                                   </Link>
                                 </h6>

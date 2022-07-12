@@ -65,9 +65,10 @@ const Contact02 = () => {
                     />
                     <div className="row-form style-2">
                       <select id="subject">
-                        <option value="1">Job Offer</option>
+                        <option value="1">Job Opportunity</option>
                         <option value="2">Question</option>
-                        <option value="3">Other</option>
+                        <option value="3">Project</option>
+                        <option value="4">Other</option>
                       </select>
                       <i className="icon-fl-down"></i>
                     </div>

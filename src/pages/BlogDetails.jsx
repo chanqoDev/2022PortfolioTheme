@@ -16,7 +16,7 @@ const BlogDetails = () => {
   const [dataRecent] = useState([
     {
       img: img1,
-      title: 'How to customize your Github Portfolio',
+      title: 'How to customize your Github README profile',
       text: 'Make your github portfolio standout.',
       time: 'Aug 7, 2021',
     },
@@ -30,48 +30,33 @@ const BlogDetails = () => {
       img: img1,
       title: 'Validate Sequence',
       text: '',
-      time: 'August 10, 2021',
+      time: 'July 10, 2021',
     },
     {
       img: img1,
       title: 'Smallest Absolute Difference',
       text: 'Lorem ipsum dolor sit amer....',
-      time: 'August 10, 2021',
+      time: 'Jun 10, 2021',
     },
     {
       img: img1,
       title: 'Sorted Squared Array',
-      text: 'Lorem ipsum dolor sit amer....',
-      time: 'August 10, 2021',
+      text: 'Multiple solutions',
+      time: 'May 10, 2022',
     },
   ]);
   const [dataTags] = useState([
     {
-      name: 'Bitcoin',
+      name: 'Data Structures',
     },
     {
-      name: 'NFT',
+      name: 'Algorithms',
     },
     {
-      name: 'Bids',
+      name: 'Time Complexity',
     },
     {
-      name: 'Digital',
-    },
-    {
-      name: 'Arts',
-    },
-    {
-      name: 'Marketplace',
-    },
-    {
-      name: 'Token',
-    },
-    {
-      name: 'Wallet',
-    },
-    {
-      name: 'Crypto',
+      name: 'Javascript',
     },
   ]);
   return (
@@ -112,18 +97,18 @@ const BlogDetails = () => {
                 <div className="meta-post flex mg-bt-31">
                   <div className="box">
                     <div className="inner">
-                      <h6 className="desc">DESIGNER INTERVIEW</h6>
-                      <p>AUGUST CHAPTER</p>
+                      <h6 className="desc">ALGORITHMS INTERVIEW Q's</h6>
+                      <p>Javascript Edition</p>
                     </div>
                   </div>
                   <div className="box left">
                     <div className="inner boder pad-r-50">
                       <h6 className="desc">WRITER</h6>
-                      <p>DWINAWAN</p>
+                      <p>ChrsiTian</p>
                     </div>
                     <div className="inner mg-l-39 mg-r-1">
                       <h6 className="desc">DATE</h6>
-                      <p>AUGUST 11, 2021</p>
+                      <p>2022</p>
                     </div>
                   </div>
                 </div>
@@ -132,18 +117,14 @@ const BlogDetails = () => {
                 </div>
                 <div className="inner-post mg-t-40">
                   <h3 className="heading mg-bt-16">
-                    What is the most fun thing to become as a Front-end
+                    What is the most fun thing to becoming as a Fullstack
                     Developer?
                   </h3>
                   <p className="mg-bt-24">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Cupidatat non Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum
+                    I enjoy making Algo videos on youtube because it helps
+                    others and it has also helped me get instant feedback and
+                    improves my Technical communication and problem solving
+                    skills.
                   </p>
                   <div className="image-box">
                     <img src={imgblogdetail1} alt="Axies" />
@@ -155,47 +136,51 @@ const BlogDetails = () => {
                     How is your daily routine?
                   </h3>
                   <p className="mg-bt-24">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Cupidatat non Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum
+                    In This blog / youtube series what I post are Javascript
+                    challenges from many sources such as leetCode,
+                    AlgoExpert.io, and other sources. I do my best to demistify
+                    and break down challenges to simple solutions. If you have
+                    any Challenges you would like for me to work on, please
+                    email me.
                   </p>
                   <div className="image">
                     <img src={imgblog2} alt="Axies" />
                   </div>
                 </div>
                 <div className="inner-post mg-t-24">
-                  <h3 className="heading mg-bt-16">Middle Post Heading</h3>
-                  <p>Middle Post Heading</p>
+                  <Link
+                    to=""
+                    onClick={() => {
+                      window.open(
+                        'https://www.youtube.com/channel/UCaHXZcSmcbPZiRII8KclXag',
+                        '_new',
+                      );
+                    }}
+                  >
+                    <h3 className="heading mg-bt-16">
+                      Videos available on Youtube
+                    </h3>
+                  </Link>
+                  {/* <p>Middle Post Heading</p> */}
                   <p>
                     {' '}
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et
-                    quasi architecto beatae vitae dicta sunt explicabo.
+                    This is only for entertain and learning purposes. Please
+                    visit youtube Channel for more videos{' '}
                   </p>
-                  <p className="mg-bt-22">
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                    odit aut fugit, sed quia consequuntur magni dolores eos qui
-                    ratione voluptatem sequi nesciunt.
-                  </p>
+                  <p className="mg-bt-22"></p>
                 </div>
                 <div className="sc-widget style-1">
                   <div className="widget widget-tag style-2">
                     <h4 className="title-widget">Tags</h4>
                     <ul>
                       <li>
-                        <Link to="#">Bitcoin</Link>
+                        <Link to="#">Data Structures</Link>
                       </li>
                       <li>
-                        <Link to="#">Token</Link>
+                        <Link to="#">Algorithms</Link>
                       </li>
                       <li>
-                        <Link to="#">Wallet</Link>
+                        <Link to="#">Time Complexity</Link>
                       </li>
                     </ul>
                   </div>
@@ -215,56 +200,6 @@ const BlogDetails = () => {
                   </div>
                 </div>
                 <div className="divider d2"></div>
-                <div id="comments">
-                  <h3 className="heading mg-bt-23">Leave A Comment</h3>
-                  <form
-                    action="#"
-                    method="post"
-                    id="commentform"
-                    className="comment-form"
-                  >
-                    <fieldset className="name">
-                      <input
-                        type="text"
-                        id="name"
-                        placeholder="Name"
-                        className="tb-my-input"
-                        name="name"
-                        tabIndex="2"
-                        aria-required="true"
-                        required
-                      />
-                    </fieldset>
-                    <fieldset className="email">
-                      <input
-                        type="email"
-                        id="email"
-                        placeholder="Email *"
-                        className="tb-my-input"
-                        name="email"
-                        tabIndex="2"
-                        aria-required="true"
-                        required
-                      />
-                    </fieldset>
-                    <fieldset className="message">
-                      <textarea
-                        id="message"
-                        name="message"
-                        rows="4"
-                        placeholder="Message"
-                        tabIndex="4"
-                        aria-required="true"
-                        required
-                      />
-                    </fieldset>
-                    <div className="btn-submit mg-t-36">
-                      <button className="tf-button-submit" type="submit">
-                        Send comment
-                      </button>
-                    </div>
-                  </form>
-                </div>
               </div>
             </div>
             <div className="side-bar details">
@@ -274,17 +209,17 @@ const BlogDetails = () => {
                   {dataRecent.map((item, index) => (
                     <li key={index} className="box-recent-post">
                       <div className="box-feature">
-                        <Link to="/blog-details">
+                        <Link to="#">
                           <img src={item.img} alt="Axies" />
                         </Link>
                       </div>
                       <div className="box-content">
-                        <Link to="/blog-details" className="title-recent-post">
+                        <Link to="#" className="title-recent-post">
                           {item.title}
                         </Link>
                         <span>
                           <span className="sub-recent-post">{item.text}</span>
-                          <Link to="/blog" className="day-recent-post">
+                          <Link to="#" className="day-recent-post">
                             {item.time}
                           </Link>
                         </span>
@@ -298,7 +233,7 @@ const BlogDetails = () => {
                 <ul>
                   {dataTags.map((item, index) => (
                     <li key={index}>
-                      <Link to="/blog" className="box-widget-tag">
+                      <Link to="#" className="box-widget-tag">
                         {item.name}
                       </Link>
                     </li>

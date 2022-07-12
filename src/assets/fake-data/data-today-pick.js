@@ -27,14 +27,6 @@ import img16 from '../images/box-item/image-box-project-16.jpg';
 
 const todayPickData = [
   {
-    img: img1,
-    title: 'Todo Rocket Planner 🚀 ',
-    // imgAuthor: imga1,
-    nameAuthor: 'SalvadorDali',
-    imgCollection: imgCollection1,
-    nameCollection: 'HTML5',
-  },
-  {
     img: img2,
     title: 'FullstackDeveloper.shop',
     // tags: 'bsc',
@@ -118,6 +110,14 @@ const todayPickData = [
     // wishlist: '100',
     // imgCollection: imgCollection1,
     // nameCollection: 'Creative Art 3D',
+  },
+  {
+    img: img1,
+    title: 'Todo Rocket Planner 🚀 ',
+    // imgAuthor: imga1,
+    nameAuthor: 'SalvadorDali',
+    imgCollection: imgCollection1,
+    nameCollection: 'HTML5',
   },
   {
     img: img9,
