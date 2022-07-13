@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 // import { Accordion } from 'react-bootstrap-accordion';
-import ResumePDF from '../assets/images/logo/Christian_E_Resume2022v.3.pdf';
+import ResumePDF from '../assets/images/logo/Christian_E_Resume2022v3.pdf';
 
 const FAQ = () => {
   // const [data] = useState([
