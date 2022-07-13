@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 // import { Accordion } from 'react-bootstrap-accordion';
+import ResumePDF from '../assets/images/logo/Christian_E_Resume2022v.3.pdf';
 
 const FAQ = () => {
   // const [data] = useState([
@@ -75,10 +76,7 @@ const FAQ = () => {
               <button
                 className="col-md-12 flat-accordion2 hovstyle"
                 onClick={() => {
-                  window.open(
-                    'https://chanqodev.github.io/ChrisDevWok_v2021/assets/Christian_E_Resume2022v.pdf',
-                    '_blank',
-                  );
+                  window.open(ResumePDF, '_blank');
                 }}
               >
                 VIEW RESUME
