@@ -1,8 +1,52 @@
 const menus = [
   {
+    id: 2,
+    name: 'Work',
+    links: '/authors-01',
+  },
+  {
+    id: 3,
+    name: 'Projects',
+    links: '/explore-02',
+  },
+  {
+    id: 4,
+    name: 'Community',
+    links: '#',
+    namesub: [
+      {
+        id: 2,
+        sub: 'Youtube Channel',
+        links: '/blog-details',
+      },
+      {
+        id: 3,
+        sub: 'Local Meetups',
+        links: '/activity-01',
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: 'Contact',
+    links: '/contact-02',
+    // namesub: [
+    //   {
+    //     id: 1,
+    //     sub: 'Contact 1',
+    //     links: '/contact-01',
+    //   },
+    //   {
+    //     id: 2,
+    //     sub: 'Contact 2',
+    //     links: '/contact-02',
+    //   },
+    // ],
+  },
+  {
     id: 1,
-    name: 'About',
-    links: '/',
+    name: 'Resume',
+    links: '/FAQ',
     // namesub: [
     //   {
     //     id: 1,
@@ -43,161 +87,6 @@ const menus = [
     //     id: 8,
     //     sub: 'Home 08 (Special)',
     //     links: '/home-08',
-    //   },
-    // ],
-  },
-  {
-    id: 2,
-    name: 'Work',
-    links: '/authors-01',
-    // namesub: [
-    //   {
-    //     id: 1,
-    //     sub: 'Explore 01',
-    //     links: '/explore-01',
-    //   },
-    //   {
-    //   id: 2,
-    //   sub: 'Explore 02',
-    //   links: '/explore-02',
-    // },
-    // {
-    //   id: 3,
-    //   sub: 'Explore 03',
-    //   links: '/explore-03',
-    // },
-    // {
-    //   id: 4,
-    //   sub: 'Explore 04',
-    //   links: '/explore-04',
-    // },
-    // {
-    //   id: 5,
-    //   sub: 'Live Auctions',
-    //   links: '/live-auctions',
-    // },
-    // {
-    //   id: 6,
-    //   sub: '2022 Portfolio',
-    //   links: '/item-details-01',
-    // },
-    // {
-    //   id: 7,
-    //   sub: '2021 Portfolio',
-    //   links: '/item-details-02',
-    // },
-    // ],
-  },
-  {
-    id: 3,
-    name: 'Projects',
-    links: '/explore-02',
-    // namesub: [
-    //   {
-    //     id: 1,
-    //     sub: '2021 Portfolio',
-    //     links: 'https://chanqodev.github.io/ChrisDevWok_v2021/',
-    //   },
-    //   // {
-    //   //   id: 2,
-    //   //   sub: 'Activity 02',
-    //   //   links: '/activity-02',
-    //   // },
-    // ],
-  },
-  {
-    id: 4,
-    name: 'Community',
-    links: '#',
-    namesub: [
-      // {
-      //   id: 1,
-      //   sub: 'Blog',
-      //   links: '/blog',
-      // },
-      {
-        id: 2,
-        sub: 'Youtube Channel',
-        links: '/blog-details',
-      },
-      {
-        id: 3,
-        sub: 'Local Meetups',
-        links: '/activity-01',
-      },
-    ],
-  },
-  //   {
-  //     id: 5,
-  //     name: 'Page',
-  //     links: '#',
-  //     namesub: [
-  //   {
-  //     id: 1,
-  //     sub: 'Authors 01',
-  //     links: '/authors-01',
-  //   },
-  //   {
-  //     id: 2,
-  //     sub: 'Authors 02',
-  //     links: '/authors-02',
-  //   },
-  //   {
-  //     id: 3,
-  //     sub: 'Wallet Connect',
-  //     links: '/wallet-connect',
-  //   },
-  //   {
-  //     id: 4,
-  //     sub: 'Create Item',
-  //     links: '/create-item',
-  //   },
-  //   {
-  //     id: 5,
-  //     sub: 'Edit Profile',
-  //     links: '/edit-profile',
-  //   },
-  //   {
-  //     id: 6,
-  //     sub: 'Ranking',
-  //     links: '/ranking',
-  //   },
-  //   {
-  //     id: 7,
-  //     sub: 'Login',
-  //     links: '/login',
-  //   },
-  //   {
-  //     id: 8,
-  //     sub: 'Sign Up',
-  //     links: '/sign-up',
-  //   },
-  //   {
-  //     id: 9,
-  //     sub: 'No Result',
-  //     links: '/no-result',
-  //   },
-  //   {
-  //     id: 10,
-  //     sub: 'FAQ',
-  //     links: '/faq',
-  //   },
-  // ],
-  //   },
-  {
-    id: 7,
-    name: 'Contact',
-    links: '/contact-02',
-    // namesub: [
-    //   {
-    //     id: 1,
-    //     sub: 'Contact 1',
-    //     links: '/contact-01',
-    //   },
-    //   {
-    //     id: 2,
-    //     sub: 'Contact 2',
-    //     links: '/contact-02',
     //   },
     // ],
   },
