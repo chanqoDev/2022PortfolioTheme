@@ -686,7 +686,9 @@ input[type="submit"]:focus {
     /* background: transparent; */
 }
 
-
+button:hover.hovstyle {
+    color: #2c3e50;
+}
 /* Placeholder color */
 ::-webkit-input-placeholder {
     color: #8A8AA0;

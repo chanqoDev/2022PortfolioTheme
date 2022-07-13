@@ -2,7 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import icon1 from '../../assets/images/icon/Wallet.png';
 import icon2 from '../../assets/images/icon/Category.png';
-import icon3 from '../../assets/images/icon/image2.png';
+import icon3 from '../../assets/images/icon/Image2.png';
 import icon4 from '../../assets/images/icon/connect-7.png';
 
 const Create = () => {
