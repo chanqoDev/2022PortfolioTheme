@@ -1,3 +1,5 @@
+Visit Live site![![Netlify Status](https://api.netlify.com/api/v1/badges/40847992-0002-4cdf-9fc8-34e7d0c543d6/deploy-status)](https://app.netlify.com/sites/sugary-dark-coffee/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +70,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # 2022PortfolioTheme
