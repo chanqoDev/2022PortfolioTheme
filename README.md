@@ -1,4 +1,5 @@
-Visit Live site![![Netlify Status](https://api.netlify.com/api/v1/badges/40847992-0002-4cdf-9fc8-34e7d0c543d6/deploy-status)](https://app.netlify.com/sites/sugary-dark-coffee/deploys)
+Visit Live site!
+[![Netlify Status](https://api.netlify.com/api/v1/badges/40847992-0002-4cdf-9fc8-34e7d0c543d6/deploy-status)](https://app.netlify.com/sites/sugary-dark-coffee/deploys)
 
 # Getting Started with Create React App
 
