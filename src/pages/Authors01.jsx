@@ -96,7 +96,7 @@ const Authors01 = () => {
                     </Link>
                   </div>
 
-                  <Link to="/item-details-01">
+                  <Link to={`${item.itemDetail}`}>
                     <div className="media-images-collection">
                       <div className="box-left">
                         <img src={item.imgleft} alt="Axies" />

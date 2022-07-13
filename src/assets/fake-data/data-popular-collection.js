@@ -46,6 +46,7 @@ import img7left from '../images/box-item/image-box-420.png';
 import img7right1 from '../images/box-item/collection-item-top-6.jpg';
 import img7right2 from '../images/box-item/collection-item-top-7.jpg';
 import img7right3 from '../images/box-item/collection-item-bottom-5.jpg';
+// itemDetail: '/item-details-01' 2022 portfolio theme item details
 
 const popularCollectionData = [
   {
@@ -61,6 +62,7 @@ const popularCollectionData = [
     wishlist: '100',
     count: 'Goyk Productions',
     link: 'https://of.tv/',
+    itemDetail: '/item-details-02',
   },
   {
     title: 'RHC.com',
@@ -75,6 +77,7 @@ const popularCollectionData = [
     wishlist: '220',
     count: 'My rockhills Church',
     link: 'https://www.myrockhillschurch.com/',
+    itemDetail: '/item-details-01',
   },
   {
     title: 'Southern California Health Center',
@@ -89,6 +92,7 @@ const popularCollectionData = [
     wishlist: '100',
     count: 'Southern California Health Center',
     link: 'https://www.irvinechiropractor.com/',
+    itemDetail: '/item-details-02',
   },
   {
     title: '4PointServices',
@@ -103,6 +107,7 @@ const popularCollectionData = [
     wishlist: '90',
     count: '4PointServices LLC',
     link: 'https://4pointservicesllc.com/',
+    itemDetail: '/item-details-01',
   },
   {
     title: 'TransIntl',
@@ -117,6 +122,7 @@ const popularCollectionData = [
     wishlist: '100',
     count: 'TransIntl LLC',
     link: 'https://www.transintl.com/mac-memory/',
+    itemDetail: '/item-details-02',
   },
   {
     title: 'GarbageDash',
@@ -131,6 +137,7 @@ const popularCollectionData = [
     wishlist: '145',
     count: 'Garbagedash LLC',
     link: 'https://www.yelp.com/biz/garbagedash-corona',
+    itemDetail: '/item-details-02',
   },
   {
     title: 'ElbowGrease AutoDetail',
@@ -144,6 +151,7 @@ const popularCollectionData = [
     imgtop: imgtop3,
     wishlist: '220',
     count: 'Elbowgrease Auto detail LLC',
+    itemDetail: '/item-details-02',
   },
 
   //   {
