@@ -7,9 +7,9 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 import img1 from '../assets/images/avatar/avt-1.png'; // HTML5
-import img2 from '../assets/images/avatar/avt-4.jpg';
+// import img2 from '../assets/images/avatar/avt-4.jpg';
 import img3 from '../assets/images/avatar/avt-9.png'; // material UI
-import img4 from '../assets/images/avatar/avt-5.jpg';
+// import img4 from '../assets/images/avatar/avt-5.jpg';
 import img5 from '../assets/images/avatar/avt-5.png';
 import img6 from '../assets/images/avatar/avt-3.png'; // github
 import img7 from '../assets/images/avatar/avt-2.png'; // css

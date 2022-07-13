@@ -30,21 +30,12 @@ const Activity01 = () => {
       link: 'https://www.meetup.com/manhattan-education-technology-meetup-group/members/186157527/profile/',
     },
   ]);
-  const [dataFilter] = useState([
-    {
-      icon: 'icon-fl-heart-filled',
-      name: 'Listings',
-    },
-    {
-      icon: 'icon-fl-heart-filled',
-      name: 'Like',
-    },
-
-    {
-      icon: 'icon-fl-users-filled',
-      name: 'Followings',
-    },
-  ]);
+  // const [dataFilter] = useState([
+  //   {
+  //     icon: 'icon-fl-users-filled',
+  //     name: 'Followings',
+  //   },
+  // ]);
 
   const [visible, setVisible] = useState(1);
   const showMoreItems = () => {

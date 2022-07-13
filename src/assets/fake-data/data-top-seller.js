@@ -25,7 +25,7 @@ import img24 from '../images/avatar/avt-php.png';
 import img25 from '../images/avatar/avt-MySql.png';
 import img26 from '../images/avatar/avt-axios.png';
 import img27 from '../images/avatar/avt-stackoverflow.png';
-import img28 from '../images/avatar/avt-grunt.png';
+// import img28 from '../images/avatar/avt-grunt.png';
 import img29 from '../images/avatar/avt-style.png';
 import img30 from '../images/avatar/avt-gatsby.png';
 import img31 from '../images/avatar/avt-netlify.png';
