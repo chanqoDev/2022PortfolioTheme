@@ -23,7 +23,7 @@ import img6 from '../../../assets/images/box-item/card-item-9.jpg';
 // import imga6 from '../../../assets/images/avatar/avt-1.jpg';
 import imgCollection6 from '../../../assets/images/avatar/avt-18.jpg';
 import img7 from '../../../assets/images/box-item/image-box-6.jpg';
-// import imga7 from '../../../assets/images/avatar/avt-4.jpg';
+import imga7 from '../../../assets/images/avatar/avt-4.jpg';
 import imgCollection7 from '../../../assets/images/avatar/avt-18.jpg';
 import img8 from '../../../assets/images/box-item/image-box-11.jpg';
 // import imga8 from '../../../assets/images/avatar/avt-3.jpg';
@@ -31,6 +31,7 @@ import imgCollection8 from '../../../assets/images/avatar/avt-18.jpg';
 import img9 from '../../../assets/images/box-item/image-box-project9.jpg';
 import img10 from '../../../assets/images/box-item/image-box-project-10.jpg';
 import imgCollection9 from '../../../assets/images/avatar/avt-1808.jpg';
+import img97 from '../../../assets/images/box-item/image-box-project97.png';
 
 import img11 from '../../../assets/images/box-item/image-box-project-11.jpg';
 import img12 from '../../../assets/images/box-item/image-box-project-12.jpg';
@@ -45,7 +46,7 @@ import imga18 from '../../../assets/images/avatar/avt-react.png';
 import imgJS from '../../../assets/images/avatar/avt-5.png';
 import imgTSC from '../../../assets/images/avatar/avt-7.png';
 import imgNode from '../../../assets/images/avatar/avt-node.png';
-
+//
 // imga17;
 const TodayPicks = () => {
   const [dataTab] = useState([
@@ -186,6 +187,20 @@ const TodayPicks = () => {
           // imgCollection: imgCollection8,
           nameCollection: 'Creative Art 3D',
           link: 'https://github.com/chanqoDev/React_KS_lawnding_page',
+        },
+        {
+          id: 9,
+          img: img97,
+          title: 'Drum Kit ',
+          // tags: 'bsc',
+          imgAuthor: imga7,
+          // nameAuthor: 'SalvadorDali',
+          // price: '4.89 ETH',
+          // priceChange: '$12.246',
+          // wishlist: '100',
+          // imgCollection: imgCollection1,
+          // nameCollection: 'Creative Art 3D',
+          link: 'https://chanqodev.github.io/Drumkit/',
         },
         {
           id: 9,
