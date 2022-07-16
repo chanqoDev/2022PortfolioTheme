@@ -9,28 +9,23 @@ import img2 from '../assets/images/avatar/avt-php.png';
 import img3 from '../assets/images/avatar/avt-4.jpg';
 import img4 from '../assets/images/avatar/avt-5.png';
 import img5 from '../assets/images/avatar/avt-1.png';
-import img6 from '../assets/images/avatar/oftv_logo.png';
-import img7 from '../assets/images/avatar/avt-MySql.png';
-import imgdetail1 from '../assets/images/box-item/images-item-details2.jpg';
+import img6 from '../assets/images/avatar/SCHC_logo.png';
+import imgdetail1 from '../assets/images/box-item/images-item-details4.jpg';
 import img66 from '../assets/images/avatar/avt-2.png';
 
-const ItemDetails02 = () => {
+const ItemDetails04 = () => {
   const [dataHistory] = useState([
     {
       img: img1,
       name: 'Wordpress',
     },
     {
+      img: img66,
+      name: 'CSS',
+    },
+    {
       img: img2,
       name: 'PHP',
-    },
-    {
-      img: img7,
-      name: 'MySQL',
-    },
-    {
-      img: img3,
-      name: 'JQuery',
     },
     {
       img: img4,
@@ -41,8 +36,8 @@ const ItemDetails02 = () => {
       name: 'HTML5',
     },
     {
-      img: img66,
-      name: 'CSS',
+      img: img3,
+      name: 'JQuery',
     },
   ]);
   return (
@@ -54,17 +49,15 @@ const ItemDetails02 = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="page-title-heading mg-bt-12">
-                <h1 className="heading text-center">OnlyFans.TV</h1>
+                <h1 className="heading text-center">SoCal Health Center</h1>
               </div>
               <div className="breadcrumbs style2">
                 <ul>
                   <li>
                     <Link to="/">Home</Link>
                   </li>
-                  <li>
-                    <Link to="#">Explore</Link>
-                  </li>
-                  <li>oftv Details</li>
+
+                  <li>SCHC Chiropractor</li>
                 </ul>
               </div>
             </div>
@@ -86,7 +79,8 @@ const ItemDetails02 = () => {
                 <div className="sc-item-details">
                   <div className="meta-item">
                     <div className="left">
-                      <h2>OFTV Goyk Productions</h2>
+                      <h2>Dr.Zubin -Irvine Chiropractor</h2>
+                      <sub> Jan 2017 - Dec 2017 </sub>
                     </div>
                   </div>
                   <div className="client-infor sc-card-product">
@@ -102,10 +96,12 @@ const ItemDetails02 = () => {
                             <Link
                               to="/item-details-02"
                               onClick={() => {
-                                window.open('http://goykpro.com/index.html');
+                                window.open(
+                                  'https://www.irvinechiropractor.com/',
+                                );
                               }}
                             >
-                              GOYK Productions
+                              Southern California Health Center
                             </Link>{' '}
                           </h6>
                         </div>
@@ -118,21 +114,14 @@ const ItemDetails02 = () => {
                       fontFamily: 'sans-serif',
                     }}
                   >
-                    My role at OFTV was to focus on user-centered experience
-                    Design. Utilizing best practices in Object Oriented
-                    Programming(OOP) such as MVC while developing a CRUD RESTAPI
-                    application. Wordpress custom Hooks and Functions with PHP8
-                    and HTML. Fetching data form API and MySQL Database to
-                    loading the images Asynchronously "Lazy loading" and
-                    improving rending speed of the overall site. Lastly, I
-                    worked with a UXDesigner and Backend Engineer in order to
-                    create a robust swiper hero slider and redesign the site
-                    style with over 1 Million+ monthly users.
+                    Wordpress to enable tamplate custimize style and plugins.
                   </p>
                   <div className="meta-item-details"></div>
                   <Link
                     to="/item-details-02"
-                    onClick={() => window.open('https://of.tv/')}
+                    onClick={() =>
+                      window.open('https://www.irvinechiropractor.com/')
+                    }
                     className="sc-button loadmore style fl-button pri-3"
                   >
                     <span>Visit Site</span>
@@ -182,58 +171,6 @@ const ItemDetails02 = () => {
                           ))}
                         </ul>
                       </TabPanel>
-                      <TabPanel>
-                        <ul className="bid-history-list">
-                          <li>
-                            <div className="content">
-                              <div className="client">
-                                <div className="sc-author-box style-2">
-                                  <div className="author-avatar">
-                                    <Link to="#">
-                                      <img
-                                        src={img1}
-                                        alt="Axies"
-                                        className="avatar"
-                                      />
-                                    </Link>
-                                    <div className="badge"></div>
-                                  </div>
-                                  <div className="author-infor">
-                                    <div className="name">
-                                      <h6>
-                                        {' '}
-                                        <Link to="/author-02">
-                                          Mason Woodward{' '}
-                                        </Link>
-                                      </h6>{' '}
-                                      <span> place a bid</span>
-                                    </div>
-                                    <span className="time">8 hours ago</span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                      </TabPanel>
-                      <TabPanel>
-                        <div className="provenance">
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap
-                            into electronic typesetting, remaining essentially
-                            unchanged. It was popularised in the 1960s with the
-                            release of Letraset sheets containing Lorem Ipsum
-                            passages, and more recently with desktop publishing
-                            software like Aldus PageMaker including versions of
-                            Lorem Ipsum.
-                          </p>
-                        </div>
-                      </TabPanel>
                     </Tabs>
                   </div>
                 </div>
@@ -248,4 +185,4 @@ const ItemDetails02 = () => {
   );
 };
 
-export default ItemDetails02;
+export default ItemDetails04;

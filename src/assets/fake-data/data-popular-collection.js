@@ -77,7 +77,7 @@ const popularCollectionData = [
     wishlist: '220',
     count: 'My rockhills Church',
     link: 'https://www.myrockhillschurch.com/',
-    itemDetail: '/item-details-01',
+    itemDetail: '/ItemDetails03',
   },
   {
     title: 'Southern California Health Center',
@@ -92,7 +92,7 @@ const popularCollectionData = [
     wishlist: '100',
     count: 'Southern California Health Center',
     link: 'https://www.irvinechiropractor.com/',
-    itemDetail: '/item-details-02',
+    itemDetail: '/item-details-04',
   },
   {
     title: '4PointServices',

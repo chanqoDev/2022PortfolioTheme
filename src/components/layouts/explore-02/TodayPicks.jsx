@@ -2,31 +2,24 @@ import React, { useState, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-// import CardModal from '../CardModal';
 
 import img1 from '../../../assets/images/box-item/card-item-3.jpg';
 import imga1 from '../../../assets/images/avatar/avt-3.png';
 import imgCollection1 from '../../../assets/images/avatar/avt-18.jpg';
 import img2 from '../../../assets/images/box-item/card-item-4.jpg';
-// import imga2 from '../../../assets/images/avatar/avt-2.jpg';
 import imgCollection2 from '../../../assets/images/avatar/avt-18.jpg';
 import img3 from '../../../assets/images/box-item/card-item-2.jpg';
-// import imga3 from '../../../assets/images/avatar/avt-4.jpg';
 import imgCollection3 from '../../../assets/images/avatar/avt-18.jpg';
 import img4 from '../../../assets/images/box-item/card-item-7.jpg';
-// import imga4 from '../../../assets/images/avatar/avt-3.jpg';
 import imgCollection4 from '../../../assets/images/avatar/avt-18.jpg';
 import img5 from '../../../assets/images/box-item/card-item8.jpg';
-// import imga5 from '../../../assets/images/avatar/avt-12.jpg';
 import imgCollection5 from '../../../assets/images/avatar/avt-18.jpg';
 import img6 from '../../../assets/images/box-item/card-item-9.jpg';
-// import imga6 from '../../../assets/images/avatar/avt-1.jpg';
 import imgCollection6 from '../../../assets/images/avatar/avt-18.jpg';
 import img7 from '../../../assets/images/box-item/image-box-6.jpg';
 import imga7 from '../../../assets/images/avatar/avt-4.jpg';
 import imgCollection7 from '../../../assets/images/avatar/avt-18.jpg';
 import img8 from '../../../assets/images/box-item/image-box-11.jpg';
-// import imga8 from '../../../assets/images/avatar/avt-3.jpg';
 import imgCollection8 from '../../../assets/images/avatar/avt-18.jpg';
 import img9 from '../../../assets/images/box-item/image-box-project9.jpg';
 import img10 from '../../../assets/images/box-item/image-box-project-10.jpg';
@@ -206,13 +199,7 @@ const TodayPicks = () => {
           id: 9,
           img: img9,
           title: 'Firebase & Google Auth Disney ',
-          // tags: 'bsc',
           imgAuthor: imga18,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
-          // imgCollection: imgCollection1,
           nameCollection: 'Creative Art 3D',
           link: 'https://disneyplus-clone-3aef7.web.app',
         },
@@ -220,12 +207,7 @@ const TodayPicks = () => {
           id: 10,
           img: img10,
           title: 'Simon Says Color Game  -JQuery,DOM ',
-          // tags: 'bsc',
           imgAuthor: imgJS,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection2,
           nameCollection: 'Creative Art 3D',
           link: 'https://chanqodev.github.io/simon_game/',
@@ -234,13 +216,7 @@ const TodayPicks = () => {
           id: 11,
           img: img5,
           title: 'React, Typescript Formik Form ',
-          // tags: 'bsc',
           imgAuthor: imgTSC,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
-          // imgCollection: imgCollection3,
           nameCollection: 'Creative Art 3D',
           link: 'https://github.com/chanqoDev/Typescript-react-formik-form/tree/main/client',
         },
@@ -248,12 +224,7 @@ const TodayPicks = () => {
           id: 12,
           img: img12,
           title: 'Vanilla JS & DOM Starbucks clone',
-          // tags: 'bsc',
           imgAuthor: imgJS,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection4,
           nameCollection: 'Creative Art 3D',
           link: 'https://chanqodev.github.io/starbucks-fullstack/',
@@ -262,12 +233,7 @@ const TodayPicks = () => {
           id: 13,
           img: img8,
           title: 'Youtube & IMDb Netflix APIn ',
-          // tags: 'bsc',
           imgAuthor: imga18,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection5,
           nameCollection: 'Creative Art 3D',
           link: 'https://netflix-clone-b3c03.web.app/',
@@ -276,12 +242,7 @@ const TodayPicks = () => {
           id: 14,
           img: img14,
           title: 'Reverse GeoLocation OpenWeather api ',
-          // tags: 'bsc',
           imgAuthor: imgJS,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection6,
           nameCollection: 'Creative Art 3D',
           link: 'https://silly-pixie-dc71f4.netlify.app/',
@@ -290,12 +251,7 @@ const TodayPicks = () => {
           id: 15,
           img: img16,
           title: 'Node.js Chrisdev Blog ',
-          // tags: 'bsc',
           imgAuthor: imgNode,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection7,
           nameCollection: 'Creative Art 3D',
           link: 'https://github.com/chanqoDev/chrisDevBlogsAPI',
@@ -304,12 +260,7 @@ const TodayPicks = () => {
           id: 16,
           img: img15,
           title: 'Bootstrap Heroku Newsletter Signup Form ',
-          // tags: 'bsc',
           imgAuthor: imgJS,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection8,
           nameCollection: 'Creative Art 3D',
           link: 'https://github.com/chanqoDev/newsletterSignup',
@@ -323,12 +274,7 @@ const TodayPicks = () => {
           id: 6,
           img: img6,
           title: 'ChrisDev Portfolio 2021 ',
-          // tags: 'bsc',
           imgAuthor: imga1,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection6,
           nameCollection: 'Creative Art 3D',
           link: 'https://chanqodev.github.io/ChrisDevWok_v2021/',
@@ -337,12 +283,7 @@ const TodayPicks = () => {
           id: 15,
           img: img16,
           title: 'Node.js Chrisdev Blog ',
-          // tags: 'bsc',
           imgAuthor: imgNode,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection7,
           nameCollection: 'Creative Art 3D',
           link: 'https://github.com/chanqoDev/chrisDevBlogsAPI',
@@ -353,10 +294,6 @@ const TodayPicks = () => {
           title: 'Simon Says Color Game  -JQuery,DOM ',
           // tags: 'bsc',
           imgAuthor: imgJS,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection2,
           nameCollection: 'Creative Art 3D',
           link: 'https://chanqodev.github.io/simon_game/',
@@ -365,12 +302,7 @@ const TodayPicks = () => {
           id: 12,
           img: img12,
           title: 'Vanilla JS & DOM Starbucks clone',
-          // tags: 'bsc',
           imgAuthor: imgJS,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection4,
           nameCollection: 'Creative Art 3D',
           link: 'https://chanqodev.github.io/starbucks-fullstack/',
@@ -379,12 +311,7 @@ const TodayPicks = () => {
           id: 14,
           img: img14,
           title: 'Reverse GeoLocation OpenWeather api ',
-          // tags: 'bsc',
           imgAuthor: imgJS,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection6,
           nameCollection: 'Creative Art 3D',
           link: 'https://silly-pixie-dc71f4.netlify.app/',
@@ -403,12 +330,7 @@ const TodayPicks = () => {
           id: 16,
           img: img15,
           title: 'Bootstrap Heroku Newsletter Signup Form ',
-          // tags: 'bsc',
           imgAuthor: imgJS,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection8,
           nameCollection: 'Creative Art 3D',
           link: 'https://github.com/chanqoDev/newsletterSignup',
@@ -422,12 +344,7 @@ const TodayPicks = () => {
           id: 13,
           img: img8,
           title: 'Youtube & IMDb Netflix APIn ',
-          // tags: 'bsc',
           imgAuthor: imga18,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection5,
           nameCollection: 'Creative Art 3D',
           link: 'https://netflix-clone-b3c03.web.app/',
@@ -436,13 +353,7 @@ const TodayPicks = () => {
           id: 11,
           img: img5,
           title: 'React, Typescript Formik Form ',
-          // tags: 'bsc',
           imgAuthor: imgTSC,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
-          // imgCollection: imgCollection3,
           nameCollection: 'Creative Art 3D',
           link: 'https://github.com/chanqoDev/Typescript-react-formik-form/tree/main/client',
         },
@@ -450,12 +361,7 @@ const TodayPicks = () => {
           id: 7,
           img: img3,
           title: 'Display Random UserApi -Typescript ',
-          // tags: 'bsc',
           imgAuthor: imgTSC,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection7,
           nameCollection: 'Creative Art 3D',
           link: 'https://neon-marshmallow-cf3bb2.netlify.app/',
@@ -464,13 +370,7 @@ const TodayPicks = () => {
           id: 8,
           img: img13,
           title: 'Rabbits Lawncare LandingPage ',
-          // tags: 'bsc',
           imgAuthor: imga18,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
-          // imgCollection: imgCollection8,
           nameCollection: 'Creative Art 3D',
           link: 'https://github.com/chanqoDev/React_KS_lawnding_page',
         },
@@ -478,13 +378,7 @@ const TodayPicks = () => {
           id: 9,
           img: img9,
           title: 'Firebase & Google Auth Disney ',
-          // tags: 'bsc',
           imgAuthor: imga18,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
-          // imgCollection: imgCollection1,
           nameCollection: 'Creative Art 3D',
           link: 'https://disneyplus-clone-3aef7.web.app',
         },
@@ -493,10 +387,6 @@ const TodayPicks = () => {
           img: img4,
           title: 'Handy-dandy Dev Blog ',
           imgAuthor: imga18,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection4,
           nameCollection: 'Creative Art 3D',
           link: 'https://github.com/chanqoDev/handydandydevblog',
@@ -507,10 +397,6 @@ const TodayPicks = () => {
           title: 'React NFT OpeanSea.io Gallery ',
           // tags: 'bsc',
           imgAuthor: imga18,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection5,
           nameCollection: 'Creative Art 3D',
           link: 'https://github.com/chanqoDev/react-nft-Opensea-Gallery',
@@ -526,11 +412,6 @@ const TodayPicks = () => {
           title: 'React, Typescript Formik Form ',
           // tags: 'bsc',
           imgAuthor: imgTSC,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
-          // imgCollection: imgCollection3,
           nameCollection: 'Creative Art 3D',
           link: 'https://github.com/chanqoDev/Typescript-react-formik-form/tree/main/client',
         },
@@ -540,10 +421,6 @@ const TodayPicks = () => {
           title: 'Display Random UserApi -Typescript ',
           // tags: 'bsc',
           imgAuthor: imgTSC,
-          // nameAuthor: 'SalvadorDali',
-          // price: '4.89 ETH',
-          // priceChange: '$12.246',
-          // wishlist: '100',
           imgCollection: imgCollection7,
           nameCollection: 'Creative Art 3D',
           link: 'https://neon-marshmallow-cf3bb2.netlify.app/',
@@ -561,9 +438,6 @@ const TodayPicks = () => {
 
           imgAuthor: imga17,
           nameAuthor: '🟢 22 active users',
-          // price: '4.89 ETH',
-          // priceChange: '22 users',
-          // wishlist: '100',
           imgCollection: imgCollection8,
           nameCollection: 'Creative Art 3D',
           link: 'https://chrome.google.com/webstore/detail/nigthowl-mode%F0%9F%A6%89/eeejechfiigialpjicekkgeohaiklhke?hl=en-US&authuser=0',
@@ -586,8 +460,6 @@ const TodayPicks = () => {
   const showMoreItems = () => {
     setVisible((prevValue) => prevValue + 4);
   };
-
-  // const [modalShow, setModalShow] = useState(false);
 
   return (
     <Fragment>
@@ -617,10 +489,8 @@ const TodayPicks = () => {
                             </Link>
                             <div className="button-place-bid">
                               <button
-                                // onClick={() => setModalShow(true)}
                                 onClick={() => {
                                   window.open(`${item.link}`, '_blank');
-                                  // window.location.assign(`${item.link}`);
                                 }}
                                 className="sc-button fl-button pri-3"
                                 style={{
@@ -679,7 +549,6 @@ const TodayPicks = () => {
           </div>
         </div>
       </div>
-      {/* <CardModal show={modalShow} onHide={() => setModalShow(false)} /> */}
     </Fragment>
   );
 };

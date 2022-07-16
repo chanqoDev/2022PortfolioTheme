@@ -61,7 +61,6 @@ const Authors01 = () => {
                             alt="Axies"
                             className="avatar"
                           />
-                          {/* <div className="badge"></div> */}
                         </div>
                       </div>
                       <div className="content">
@@ -69,7 +68,6 @@ const Authors01 = () => {
                           <Link
                             to="#"
                             onClick={() => {
-                              // window.location.assign(`${item.link}`);
                               window.open(`${item.link}`, '_blank');
                             }}
                           >

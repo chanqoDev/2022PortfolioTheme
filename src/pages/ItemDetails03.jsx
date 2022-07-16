@@ -9,28 +9,23 @@ import img2 from '../assets/images/avatar/avt-php.png';
 import img3 from '../assets/images/avatar/avt-4.jpg';
 import img4 from '../assets/images/avatar/avt-5.png';
 import img5 from '../assets/images/avatar/avt-1.png';
-import img6 from '../assets/images/avatar/oftv_logo.png';
-import img7 from '../assets/images/avatar/avt-MySql.png';
-import imgdetail1 from '../assets/images/box-item/images-item-details2.jpg';
+import img6 from '../assets/images/avatar/rhc_logo.png';
+import imgdetail1 from '../assets/images/box-item/images-item-details3.jpg';
 import img66 from '../assets/images/avatar/avt-2.png';
 
-const ItemDetails02 = () => {
+const ItemDetails03 = () => {
   const [dataHistory] = useState([
     {
       img: img1,
       name: 'Wordpress',
     },
     {
+      img: img66,
+      name: 'CSS',
+    },
+    {
       img: img2,
       name: 'PHP',
-    },
-    {
-      img: img7,
-      name: 'MySQL',
-    },
-    {
-      img: img3,
-      name: 'JQuery',
     },
     {
       img: img4,
@@ -41,8 +36,8 @@ const ItemDetails02 = () => {
       name: 'HTML5',
     },
     {
-      img: img66,
-      name: 'CSS',
+      img: img3,
+      name: 'JQuery',
     },
   ]);
   return (
@@ -54,17 +49,17 @@ const ItemDetails02 = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="page-title-heading mg-bt-12">
-                <h1 className="heading text-center">OnlyFans.TV</h1>
+                <h1 className="heading text-center">
+                  Rockhills Church Details
+                </h1>
               </div>
               <div className="breadcrumbs style2">
                 <ul>
                   <li>
                     <Link to="/">Home</Link>
                   </li>
-                  <li>
-                    <Link to="#">Explore</Link>
-                  </li>
-                  <li>oftv Details</li>
+
+                  <li>RHC</li>
                 </ul>
               </div>
             </div>
@@ -86,7 +81,8 @@ const ItemDetails02 = () => {
                 <div className="sc-item-details">
                   <div className="meta-item">
                     <div className="left">
-                      <h2>OFTV Goyk Productions</h2>
+                      <h2>Rockhills Church</h2>
+                      <sub> Jan 2021 - Present </sub>
                     </div>
                   </div>
                   <div className="client-infor sc-card-product">
@@ -102,10 +98,12 @@ const ItemDetails02 = () => {
                             <Link
                               to="/item-details-02"
                               onClick={() => {
-                                window.open('http://goykpro.com/index.html');
+                                window.open(
+                                  'https://www.myrockhillschurch.com/',
+                                );
                               }}
                             >
-                              GOYK Productions
+                              myrockhillschurch.com
                             </Link>{' '}
                           </h6>
                         </div>
@@ -118,21 +116,17 @@ const ItemDetails02 = () => {
                       fontFamily: 'sans-serif',
                     }}
                   >
-                    My role at OFTV was to focus on user-centered experience
-                    Design. Utilizing best practices in Object Oriented
-                    Programming(OOP) such as MVC while developing a CRUD RESTAPI
-                    application. Wordpress custom Hooks and Functions with PHP8
-                    and HTML. Fetching data form API and MySQL Database to
-                    loading the images Asynchronously "Lazy loading" and
-                    improving rending speed of the overall site. Lastly, I
-                    worked with a UXDesigner and Backend Engineer in order to
-                    create a robust swiper hero slider and redesign the site
-                    style with over 1 Million+ monthly users.
+                    My responsibility at RHC, is to provide and implement unique
+                    layout designs and update the website on a weekly basis.
+                    Working in a team setting with Media team and Designer Team
+                    collaborating similiar to SCRUM approach.
                   </p>
                   <div className="meta-item-details"></div>
                   <Link
                     to="/item-details-02"
-                    onClick={() => window.open('https://of.tv/')}
+                    onClick={() =>
+                      window.open('https://www.myrockhillschurch.com/')
+                    }
                     className="sc-button loadmore style fl-button pri-3"
                   >
                     <span>Visit Site</span>
@@ -248,4 +242,4 @@ const ItemDetails02 = () => {
   );
 };
 
-export default ItemDetails02;
+export default ItemDetails03;

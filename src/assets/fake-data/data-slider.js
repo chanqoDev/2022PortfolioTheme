@@ -24,16 +24,6 @@ const heroSliderData = [
     imgbg: imgbg2,
     class: 'center',
   },
-  //   {
-  //     title_1: 'Discover, find,',
-  //     title_2: 'Sell extraordinary',
-  //     title_3: 'Monster NFTs',
-  //     description:
-  //       'Marketplace for monster character cllections non fungible token NFTs',
-  //     img: img2,
-  //     imgbg: imgbg2,
-  //     class: 'right',
-  //   },
 ];
 
 export default heroSliderData;
