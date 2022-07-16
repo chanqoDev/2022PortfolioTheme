@@ -115,6 +115,7 @@ const TodayPicks = () => {
           // nameAuthor: 'SalvadorDali',
           nameCollection: 'React',
           feature: 'Coming Soon',
+          link: 'http://fullstackdeveloper.shop/',
         },
         {
           id: 3,
@@ -437,7 +438,7 @@ const TodayPicks = () => {
           // tags: 'bsc',
 
           imgAuthor: imga17,
-          nameAuthor: '🟢 22 active users',
+          nameAuthor: '🟢 23 active users',
           imgCollection: imgCollection8,
           nameCollection: 'Creative Art 3D',
           link: 'https://chrome.google.com/webstore/detail/nigthowl-mode%F0%9F%A6%89/eeejechfiigialpjicekkgeohaiklhke?hl=en-US&authuser=0',
@@ -484,7 +485,12 @@ const TodayPicks = () => {
                           } `}
                         >
                           <div className="card-media">
-                            <Link to="/item-details-01">
+                            <Link
+                              to="/explore-02"
+                              onClick={() => {
+                                window.open(`${item.link}`, '_blank');
+                              }}
+                            >
                               <img src={item.img} alt="Axies" />
                             </Link>
                             <div className="button-place-bid">
