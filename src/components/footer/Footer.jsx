@@ -8,16 +8,8 @@ const Footer = () => {
       title: 'Work Portfolio',
       link: '/authors-01',
     },
-    // {
-    //   title: 'Old Work Portfolio',
-    //   link: 'https://chanqodev.github.io/ChrisDevWok_v2021/#title',
-    // },
   ];
   const resourcesList = [
-    // {
-    //   title: 'Item Details',
-    //   link: '/item-details-01',
-    // },
     {
       title: 'Local Meetups',
       link: '/activity-01',
@@ -40,14 +32,6 @@ const Footer = () => {
       title: 'Contact Us',
       link: '/contact-02',
     },
-    // {
-    //   title: 'Our Blog',
-    //   link: '/blog',
-    // },
-    // {
-    //   title: 'FAQ',
-    //   link: '/faq',
-    // },
   ];
   const socialList = [
     {
@@ -156,10 +140,9 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 col-sm-7 col-12">
               <div className="widget widget-subcribe">
                 <h4 className="title-widget">
-                  <h6>Email: christianelena92@gmail.com </h6>
-                  Text to Phone:<br></br>(949)375-9321<br></br>
+                  <h6>christianelena92@gmail.com </h6>
+                  {/* Text to Phone:<br></br>(949)375-9321<br></br> */}
                 </h4>
-                <br />
 
                 <h5 className="title-widget">Email Me</h5>
                 <div className="form-subcribe">

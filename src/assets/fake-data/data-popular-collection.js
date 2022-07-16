@@ -122,7 +122,7 @@ const popularCollectionData = [
     wishlist: '100',
     count: 'TransIntl LLC',
     link: 'https://www.transintl.com/mac-memory/',
-    itemDetail: '/item-details-02',
+    itemDetail: '/item-details-05',
   },
   {
     title: 'GarbageDash',

@@ -6,7 +6,7 @@ import ItemDetails01 from './ItemDetails01';
 import ItemDetails02 from './ItemDetails02';
 import ItemDetails03 from './ItemDetails03';
 import ItemDetails04 from './ItemDetails04';
-
+import ItemDetails05 from './ItemDetails05';
 import Activity01 from './Activity01';
 import Activity02 from './Activity02';
 import Blog from './Blog';
@@ -29,7 +29,7 @@ const routes = [
   { path: '/item-details-02', component: <ItemDetails02 /> },
   { path: '/ItemDetails03', component: <ItemDetails03 /> },
   { path: '/item-details-04', component: <ItemDetails04 /> },
-
+  { path: '/item-details-05', component: <ItemDetails05 /> },
   { path: '/activity-01', component: <Activity01 /> },
   { path: '/activity-02', component: <Activity02 /> },
   { path: '/blog', component: <Blog /> },
