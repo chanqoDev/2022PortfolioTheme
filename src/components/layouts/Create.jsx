@@ -16,22 +16,20 @@ const Create = () => {
     },
     {
       title: 'AdobeXD Design',
-      description:
-        'Setting up your NFT collection and creating NFTs on NFTs is easy! This guide explains how to set up your first collection',
+      description: 'Wireframe, Mockups, User-design experience',
       icon: icon2,
       colorbg: 'icon-color2',
     },
     {
       title: 'Figma',
       description:
-        'Sed ut perspiciatis un de omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.',
+        'From responsive layouts, grids a tool used to build fast prototypes and storyboards',
       icon: icon3,
       colorbg: 'icon-color3',
     },
     {
       title: 'Agile Scrum Methodology',
-      description:
-        'Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to sell your NFTs!',
+      description: 'I enjoy collaborating and working in a Scrum enviorment! ',
       icon: icon4,
       colorbg: 'icon-color4',
     },
