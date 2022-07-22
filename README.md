@@ -4,7 +4,7 @@ Visit Live site!
 
 HOW to install Locally 
 
-step 1: gh repo clone chanqoDev/2022PortfolioTheme
+step 1: <code> gh repo clone chanqoDev/2022PortfolioTheme </code> 
 
 Step 2: Make sure you have Node installed && <code> npm -i </code> "This installs nessary dependencies" 
 
