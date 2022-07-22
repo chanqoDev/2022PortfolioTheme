@@ -1,7 +1,30 @@
 Visit Live site!
 [![Netlify Status](https://api.netlify.com/api/v1/badges/40847992-0002-4cdf-9fc8-34e7d0c543d6/deploy-status)](https://app.netlify.com/sites/sugary-dark-coffee/deploys)
 
-# Getting Started with Create React App
+
+HOW to install Locally 
+
+step 1: gh repo clone chanqoDev/2022PortfolioTheme
+
+Step 2: Make sure you have Node installed && <code> npm -i </code> "This installs nessary dependencies" 
+
+step 3: spin up the project, <code> npm start </code> 
+
+
+
+React Multi-Page site
+Router Router v6: https://reactrouter.com/
+Swiper API: https://swiperjs.com/swiper-api
+Axios: https://axios-http.com/docs/intro
+
+
+
+
+<details>
+
+<summary> # Getting Started with Create React App </summary>
+ 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -71,5 +94,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+</details> 
 # 2022PortfolioTheme
